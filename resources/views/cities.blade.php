@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section("content")
-    <h1>Cities</h1>
+    <h1>This is new commit</h1>
     <table class="table-striped table-dark table">
         <thead>
             <tr>

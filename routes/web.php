@@ -26,7 +26,6 @@ Route::get('/', function () {
 });
 
 Route::get('/actor', [ActorController::class, 'index']);
-
 Route::get('/cities', [CityController::class, 'index']);
 Route::get('/cities/{countryId}', 'CityController@getCityCountryById');
 
